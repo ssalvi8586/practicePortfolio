@@ -45,6 +45,33 @@ h1{
     background-position: right;
 }
 
-.experience-area{
+.experience-item{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
 
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#pro{
+    border-left: 8px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(blue, cyan) 30;
+}
+
+#baby{
+    border-left: 10px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(orange, tomato) 30;
+}
+
+footer p{
+    text-align: center;
 }
