@@ -58,10 +58,11 @@ h1{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    padding: 5%;
 }
 
 #pro{
-    border-left: 8px solid;
+    border-left: 10px solid;
     border-image-slice: 1;
     border-image: linear-gradient(blue, cyan) 30;
 }
